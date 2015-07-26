@@ -1,0 +1,47 @@
+/***** Responsive *****/
+@media (max-width: 650px) {
+  header {
+    text-align: center;
+  }
+
+  .logo {
+    float: none;
+    width: 80px;
+  }
+
+  header nav {
+    float: none;
+    text-align: center;
+  }
+
+  .column {
+    width: 100% !important;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  /***** About-Sidebar Border *****/
+  .about_sidebar:last-of-type {
+    border-left: 0;
+  }
+
+  .about_sidebar h2:nth-child(1) {
+    border-top: 1px solid #444;
+  }
+
+  /*****Contact Page *****/
+  .contact_section {
+    min-height: 40vh;
+  }
+
+  .contact_map {
+    min-height: 40vh;
+    margin-bottom: 3em;
+
+    &:last-of-type {
+      border-left: 0;
+    }
+  }
+}
+
+

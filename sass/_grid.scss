@@ -1,0 +1,25 @@
+/* Columns & Row */
+.row {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto 20px;
+}
+
+.column {
+  float: left;
+  /*margin-right: 2%;*/
+}
+
+.two-third {
+  width: 65%;
+}
+.one-half {
+  width: 50%;
+}
+.one-third {
+  width: 35%
+}
+
+.column:last-of-type {
+  margin-right: 0;
+}

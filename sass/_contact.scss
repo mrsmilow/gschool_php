@@ -1,0 +1,39 @@
+/***** Contact Page *****/
+
+.contact_section {
+  background: white;
+  min-height:90vh;
+  overflow: auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  & h1 {
+    padding:1.5em .6em .2em;
+    margin:0;
+  }
+
+  & p {
+    padding:0em .9em 1em;
+    margin:0;
+  }
+}
+
+.contact_map {
+  background: white;
+  min-height: 90vh;
+  overflow: auto;
+  border-left: 1px solid #444;
+  box-sizing: border-box;
+
+}
+
+.map {
+  width:90%;
+  overflow: auto;
+  margin: 0 auto;
+  padding-top: 2.5em;
+
+  & iframe {
+    width: 100%;
+  }
+}

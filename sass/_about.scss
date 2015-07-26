@@ -1,0 +1,25 @@
+/******* About Page *******/
+
+.about_section h1 {
+  padding:1.5em .6em .2em;
+  margin:0;
+}
+
+.about_section p {
+  padding:0em .9em 1em;
+  margin:0;
+}
+
+.about_sidebar {
+  border-left: 1px solid #444;
+
+  & h2 {
+    padding:1.5em .7em .2em;
+    margin:0;
+  }
+
+  & p {
+    padding:0em 1em .2em;
+    margin:0;
+  } 
+}
